@@ -19,7 +19,9 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: test-goactions
-        uses: Vinayaks439/test-goactions@1.0.4
+        uses: Vinayaks439/test-goactions@1.0.6
         with:
           name: vinayak
+          favColor: blue
+          song: hotcold
           
