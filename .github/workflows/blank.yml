@@ -25,4 +25,11 @@ jobs:
           action: create
           name: john
           age: 55
+      - name: test-goactions
+        uses: Vinayaks439/test-goactions@1.0.8
+        with:
+          command: user
+          action: delete
+          name: john
+          age: 55
           
