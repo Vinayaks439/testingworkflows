@@ -19,9 +19,10 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: test-goactions
-        uses: Vinayaks439/test-goactions@1.0.7
+        uses: Vinayaks439/test-goactions@1.0.8
         with:
           command: user
           action: create
-          flags: "--name john --age 55"
+          name: john
+          age: 55
           
